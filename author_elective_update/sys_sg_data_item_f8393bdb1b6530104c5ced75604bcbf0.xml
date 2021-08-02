@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="DELETE">
+        <condition_type>declarative</condition_type>
+        <description>Open NeedIt records of specified Start Date</description>
+        <group_by/>
+        <instance_relative_url_qc/>
+        <name>Specified Start Date</name>
+        <query_condition table="x_58872_needit_needit">active=true^u_when_needed&gt;={{Start date}}^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/>
+            <item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="&gt;=" or="false" value="{{Start date}}"/>
+            <item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-30 09:35:08</sys_created_on>
+        <sys_id>f8393bdb1b6530104c5ced75604bcbf0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Specified Start Date</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_sg_data_item_f8393bdb1b6530104c5ced75604bcbf0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-30 09:36:40</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_sg_data_item>
+    <sys_translated_text action="DELETE" query="documentkey=f8393bdb1b6530104c5ced75604bcbf0"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>e467ebe0db0fac10ad8dd7c8f4961963</instance_id>
+        <instance_name>dev107193</instance_name>
+        <name>sys_sg_data_item_f8393bdb1b6530104c5ced75604bcbf0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item"><sys_sg_data_item action="INSERT_OR_UPDATE"><condition_type>declarative</condition_type><description>Open NeedIt records of specified Start Date</description><group_by/><instance_relative_url_qc/><name>Specified Start Date</name><query_condition table="x_58872_needit_needit">active=true^u_when_needed&gt;={{Start date}}^ORDERBYnumber<item endquery="false" field="active" goto="false" newquery="false" operator="=" or="false" value="true"/><item endquery="false" field="u_when_needed" goto="false" newquery="false" operator="&gt;=" or="false" value="{{Start date}}"/><item endquery="false" field="" goto="false" newquery="false" operator="ORDERBY" or="false" value="number"/></query_condition><query_condition_script/><sys_class_name>sys_sg_data_item</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-07-30 09:35:08</sys_created_on><sys_id>f8393bdb1b6530104c5ced75604bcbf0</sys_id><sys_mod_count>2</sys_mod_count><sys_name>Specified Start Date</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_sg_data_item_f8393bdb1b6530104c5ced75604bcbf0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-07-30 09:36:40</sys_updated_on><table>x_58872_needit_needit</table></sys_sg_data_item><sys_translated_text action="delete_multiple" query="documentkey=f8393bdb1b6530104c5ced75604bcbf0"/></record_update>]]></payload>
+        <payload_hash>-831972569</payload_hash>
+        <record_name>Specified Start Date</record_name>
+        <reverted_from/>
+        <source>eaf3060e1b6130104c5ced75604bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-30 09:36:40</sys_created_on>
+        <sys_id>2b89bfdb1b6530104c5ced75604bcb54</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17af6c5deaa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-30 09:36:40</sys_updated_on>
+        <type>Data Item</type>
+        <update_guid>6389bfdbec6530108dcf7d4561ae4f54</update_guid>
+        <update_guid_history>6389bfdbec6530108dcf7d4561ae4f54:-831972569,f059b31f0e653010114e25672dac65b8:-1729181278,b0393bdbc565301019487159883beaf3:-1277704367</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-07-30 09:41:31</sys_created_on>
+        <sys_db_object display_value="" name="sys_sg_data_item">sys_sg_data_item</sys_db_object>
+        <sys_id>2ef5a3da54b84422b279844327107689</sys_id>
+        <sys_metadata>f8393bdb1b6530104c5ced75604bcbf0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Specified Start Date</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_sg_data_item_f8393bdb1b6530104c5ced75604bcbf0</sys_update_name>
+        <sys_update_version display_value="sys_sg_data_item_f8393bdb1b6530104c5ced75604bcbf0">2b89bfdb1b6530104c5ced75604bcb54</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-07-30 09:41:31</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
